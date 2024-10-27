@@ -1,0 +1,57 @@
+{
+	"title": "AdvancedEmptyResults",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"AND": [
+						{
+							"GT": {
+								"sections_avg": 101
+							}
+						},
+						{
+							"IS": {
+								"sections_dept": "adhe"
+							}
+						}
+					]
+				},
+				{
+					"EQ": {
+						"sections_avg": 101
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_id",
+				"overallcount",
+				"blank"
+			],
+			"ORDER": "sections_id"
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_dept",
+				"sections_id"
+			],
+			"APPLY": [
+				{
+					"overallcount": {
+						"COUNT": "sections_avg"
+					}
+				},
+				{
+					"blank": {
+						"COUNT": "sections_avg"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": []
+}

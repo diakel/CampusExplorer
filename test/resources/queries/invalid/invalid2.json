@@ -1,0 +1,8 @@
+{
+	"title": "Query Malformed",
+	"input": {
+		"OPTIONS": {}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

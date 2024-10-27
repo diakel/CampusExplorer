@@ -1,0 +1,27 @@
+{
+	"title": "ISWildCardInvalid1",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_instructor": "w*w"
+					}
+				},
+				{
+					"LT": {
+						"sections_avg": 60
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_uuid",
+				"sections_instructor"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

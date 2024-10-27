@@ -1,0 +1,64 @@
+{
+	"title": "GroupByDeptAverage",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 97
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"avg"
+			],
+			"ORDER": "avg"
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_dept"
+			],
+			"APPLY": [
+				{
+					"avg": {
+						"AVG": "sections_avg"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "educ",
+			"avg": 97.5
+		},
+		{
+			"sections_dept": "math",
+			"avg": 97.9
+		},
+		{
+			"sections_dept": "crwr",
+			"avg": 98
+		},
+		{
+			"sections_dept": "epse",
+			"avg": 98.01
+		},
+		{
+			"sections_dept": "cnps",
+			"avg": 98.04
+		},
+		{
+			"sections_dept": "nurs",
+			"avg": 98.14
+		},
+		{
+			"sections_dept": "eece",
+			"avg": 98.75
+		},
+		{
+			"sections_dept": "spph",
+			"avg": 98.98
+		}
+	]
+}

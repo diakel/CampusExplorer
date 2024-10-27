@@ -1,0 +1,27 @@
+{
+	"title": "Invalid6",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sec_tions_inst_ructor": "*w"
+					}
+				},
+				{
+					"LT": {
+						"sections_avg": 60
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_uuid",
+				"sections_instructor"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

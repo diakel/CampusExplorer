@@ -1,0 +1,14 @@
+{
+	"title": "emptywhere",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_uuid",
+				"sections_instructor"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "ResultTooLargeError"
+}

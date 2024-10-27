@@ -1,0 +1,61 @@
+body {
+	font-family: "Montserrat", serif;
+	background-color: #e8cdcd;
+}
+
+h1 {
+	margin-left: 10px;
+}
+
+#roomList {
+	float: left;
+	overflow-y: scroll;
+	max-height: 600px;
+	width: 200px;
+	margin-left: 20px;
+}
+
+.roomItem {
+	cursor: pointer;
+	height: 28px;
+}
+
+.roomItem:hover {
+	background-color: lightgray;
+}
+
+.active { background: #e4fdfd; border:0.5px solid gray; color: #000000; padding:3px }
+
+#roomInfo {
+	margin-right: 20px;
+	float: right;
+	width: 300px;
+	border: 1px solid #e4fdfd;
+	padding: 10px;
+	display: none;
+}
+
+#selectedRooms {
+	margin-right: 20px;
+	float: right;
+	width: 300px;
+	border: 1px solid #e4fdfd;
+	padding: 10px;
+	display: none;
+}
+
+#walkingTime {
+	float: right;
+	width: 300px;
+	padding: 10px;
+	overflow-y: scroll;
+	max-height: 200px;
+}
+
+#map {
+	float: left;
+	margin-left: 30px;
+	height: 600px;
+	width: 800px;
+}
+

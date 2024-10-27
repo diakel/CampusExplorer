@@ -1,0 +1,48 @@
+{
+	"title": "ISWildCard5",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_instructor": "*w"
+					}
+				},
+				{
+					"LT": {
+						"sections_avg": 60
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_uuid",
+				"sections_instructor"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_uuid": "3809",
+			"sections_instructor": "rechnitzer, andrew"
+		},
+		{
+			"sections_uuid": "47065",
+			"sections_instructor": "rechnitzer, andrew"
+		},
+		{
+			"sections_uuid": "5215",
+			"sections_instructor": "rechnitzer, andrew"
+		},
+		{
+			"sections_uuid": "13785",
+			"sections_instructor": "rechnitzer, andrew"
+		},
+		{
+			"sections_uuid": "72992",
+			"sections_instructor": "rechnitzer, andrew"
+		}
+	]
+}

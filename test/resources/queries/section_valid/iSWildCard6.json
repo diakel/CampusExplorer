@@ -1,0 +1,92 @@
+{
+	"title": "ISWildCard6",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_instructor": "w*"
+					}
+				},
+				{
+					"LT": {
+						"sections_avg": 60
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_uuid",
+				"sections_instructor"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_uuid": "64829",
+			"sections_instructor": "wang, yan"
+		},
+		{
+			"sections_uuid": "1180",
+			"sections_instructor": "waltham, christopher"
+		},
+		{
+			"sections_uuid": "7327",
+			"sections_instructor": "watts, susan"
+		},
+		{
+			"sections_uuid": "51393",
+			"sections_instructor": "watts, susan"
+		},
+		{
+			"sections_uuid": "89542",
+			"sections_instructor": "watts, susan"
+		},
+		{
+			"sections_uuid": "89544",
+			"sections_instructor": "watts, susan"
+		},
+		{
+			"sections_uuid": "97294",
+			"sections_instructor": "watts, susan"
+		},
+		{
+			"sections_uuid": "12059",
+			"sections_instructor": "walsh marr, jennifer"
+		},
+		{
+			"sections_uuid": "12062",
+			"sections_instructor": "walsh marr, jennifer"
+		},
+		{
+			"sections_uuid": "12063",
+			"sections_instructor": "walsh marr, jennifer"
+		},
+		{
+			"sections_uuid": "92650",
+			"sections_instructor": "walsh marr, jennifer"
+		},
+		{
+			"sections_uuid": "92653",
+			"sections_instructor": "walsh marr, jennifer"
+		},
+		{
+			"sections_uuid": "96991",
+			"sections_instructor": "wei, xiaoxi tereza"
+		},
+		{
+			"sections_uuid": "3795",
+			"sections_instructor": "wong, tom"
+		},
+		{
+			"sections_uuid": "31941",
+			"sections_instructor": "walls, patrick"
+		},
+		{
+			"sections_uuid": "47072",
+			"sections_instructor": "williams, thomas"
+		}
+	]
+}

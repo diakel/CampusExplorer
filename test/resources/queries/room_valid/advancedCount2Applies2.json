@@ -1,0 +1,190 @@
+{
+	"title": "AdvancedCount2Applies2",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"AND": [
+						{
+							"GT": {
+								"sections_avg": 90
+							}
+						},
+						{
+							"IS": {
+								"sections_dept": "adhe"
+							}
+						}
+					]
+				},
+				{
+					"EQ": {
+						"sections_avg": 95
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_id",
+				"overallcount",
+				"blank"
+			],
+			"ORDER": "sections_id"
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_dept",
+				"sections_id"
+			],
+			"APPLY": [
+				{
+					"overallcount": {
+						"COUNT": "sections_avg"
+					}
+				},
+				{
+					"blank": {
+						"MIN": "sections_avg"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "adhe",
+			"sections_id": "329",
+			"overallcount": 5,
+			"blank": 90.02
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_id": "330",
+			"overallcount": 7,
+			"blank": 90.17
+		},
+		{
+			"sections_dept": "adhe",
+			"sections_id": "412",
+			"overallcount": 2,
+			"blank": 90.16
+		},
+		{
+			"sections_dept": "nurs",
+			"sections_id": "424",
+			"overallcount": 1,
+			"blank": 95
+		},
+		{
+			"sections_dept": "edcp",
+			"sections_id": "473",
+			"overallcount": 1,
+			"blank": 95
+		},
+		{
+			"sections_dept": "kin",
+			"sections_id": "499",
+			"overallcount": 1,
+			"blank": 95
+		},
+		{
+			"sections_dept": "kin",
+			"sections_id": "500",
+			"overallcount": 1,
+			"blank": 95
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_id": "501",
+			"overallcount": 1,
+			"blank": 95
+		},
+		{
+			"sections_dept": "rhsc",
+			"sections_id": "501",
+			"overallcount": 1,
+			"blank": 95
+		},
+		{
+			"sections_dept": "econ",
+			"sections_id": "516",
+			"overallcount": 1,
+			"blank": 95
+		},
+		{
+			"sections_dept": "math",
+			"sections_id": "532",
+			"overallcount": 1,
+			"blank": 95
+		},
+		{
+			"sections_dept": "cnps",
+			"sections_id": "535",
+			"overallcount": 1,
+			"blank": 95
+		},
+		{
+			"sections_dept": "obst",
+			"sections_id": "549",
+			"overallcount": 1,
+			"blank": 95
+		},
+		{
+			"sections_dept": "musc",
+			"sections_id": "553",
+			"overallcount": 1,
+			"blank": 95
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_id": "564",
+			"overallcount": 1,
+			"blank": 95
+		},
+		{
+			"sections_dept": "sowk",
+			"sections_id": "570",
+			"overallcount": 1,
+			"blank": 95
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_id": "589",
+			"overallcount": 1,
+			"blank": 95
+		},
+		{
+			"sections_dept": "bmeg",
+			"sections_id": "597",
+			"overallcount": 1,
+			"blank": 95
+		},
+		{
+			"sections_dept": "crwr",
+			"sections_id": "599",
+			"overallcount": 1,
+			"blank": 95
+		},
+		{
+			"sections_dept": "mtrl",
+			"sections_id": "599",
+			"overallcount": 1,
+			"blank": 95
+		},
+		{
+			"sections_dept": "epse",
+			"sections_id": "606",
+			"overallcount": 1,
+			"blank": 95
+		},
+		{
+			"sections_dept": "epse",
+			"sections_id": "682",
+			"overallcount": 1,
+			"blank": 95
+		}
+	]
+}

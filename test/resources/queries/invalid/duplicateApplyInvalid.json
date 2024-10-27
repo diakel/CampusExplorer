@@ -1,0 +1,56 @@
+{
+	"title": "DuplicateApplyInvalid",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"AND": [
+						{
+							"GT": {
+								"sections_avg": 90
+							}
+						},
+						{
+							"IS": {
+								"sections_dept": "adhe"
+							}
+						}
+					]
+				},
+				{
+					"EQ": {
+						"sections_avg": 95
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_id",
+				"overallcount"
+			],
+			"ORDER": "sections_id"
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_dept",
+				"sections_id"
+			],
+			"APPLY": [
+				{
+					"overallcount": {
+						"COUNT": "sections_avg"
+					}
+				},
+				{
+					"overallcount": {
+						"COUNT": "sections_avg"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

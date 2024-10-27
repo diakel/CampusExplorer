@@ -1,0 +1,56 @@
+{
+	"title": "EQOrLT2",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"EQ": {
+						"sections_avg": 2
+					}
+				},
+				{
+					"LT": {
+						"sections_avg": 23
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_avg",
+				"sections_dept"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_avg": 4,
+			"sections_dept": "busi"
+		},
+		{
+			"sections_avg": 4,
+			"sections_dept": "busi"
+		},
+		{
+			"sections_avg": 4.5,
+			"sections_dept": "fopr"
+		},
+		{
+			"sections_avg": 0,
+			"sections_dept": "frst"
+		},
+		{
+			"sections_avg": 0,
+			"sections_dept": "lfs"
+		},
+		{
+			"sections_avg": 0,
+			"sections_dept": "lfs"
+		},
+		{
+			"sections_avg": 1,
+			"sections_dept": "wood"
+		}
+	]
+}

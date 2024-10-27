@@ -1,0 +1,58 @@
+{
+	"title": "LTandIS",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"LT": {
+						"sections_avg": 30
+					}
+				},
+				{
+					"NOT": {
+						"IS": {
+							"sections_uuid": "20"
+						}
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_uuid",
+				"sections_instructor"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_uuid": "16427",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "16428",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "84769",
+			"sections_instructor": "bendickson, dennis"
+		},
+		{
+			"sections_uuid": "89536",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "56402",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "56403",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "49835",
+			"sections_instructor": ""
+		}
+	]
+}

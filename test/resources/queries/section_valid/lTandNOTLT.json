@@ -1,0 +1,50 @@
+{
+	"title": "LTandNOTLT",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"LT": {
+						"sections_avg": 40
+					}
+				},
+				{
+					"NOT": {
+						"LT": {
+							"sections_avg": 20
+						}
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_avg",
+				"sections_dept"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_avg": 33,
+			"sections_dept": "civl"
+		},
+		{
+			"sections_avg": 39.03,
+			"sections_dept": "educ"
+		},
+		{
+			"sections_avg": 39.03,
+			"sections_dept": "educ"
+		},
+		{
+			"sections_avg": 34,
+			"sections_dept": "hist"
+		},
+		{
+			"sections_avg": 33.2,
+			"sections_dept": "phil"
+		}
+	]
+}

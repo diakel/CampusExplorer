@@ -1,0 +1,260 @@
+{
+	"title": "ISWildCard4",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_instructor": "*w*"
+					}
+				},
+				{
+					"LT": {
+						"sections_avg": 60
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_uuid",
+				"sections_instructor"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_uuid": "87342",
+			"sections_instructor": "mansfield, shawn"
+		},
+		{
+			"sections_uuid": "11078",
+			"sections_instructor": "norwood, peter"
+		},
+		{
+			"sections_uuid": "66727",
+			"sections_instructor": "norwood, peter"
+		},
+		{
+			"sections_uuid": "98190",
+			"sections_instructor": "crane, angela;wang, yan"
+		},
+		{
+			"sections_uuid": "64787",
+			"sections_instructor": "jetter, reinhard;stewart, jaclyn"
+		},
+		{
+			"sections_uuid": "64829",
+			"sections_instructor": "wang, yan"
+		},
+		{
+			"sections_uuid": "7762",
+			"sections_instructor": "rajwani, aziz"
+		},
+		{
+			"sections_uuid": "32937",
+			"sections_instructor": "rajwani, aziz"
+		},
+		{
+			"sections_uuid": "73282",
+			"sections_instructor": "rajwani, aziz"
+		},
+		{
+			"sections_uuid": "18845",
+			"sections_instructor": "bowers, fred;bowers, sarah"
+		},
+		{
+			"sections_uuid": "1180",
+			"sections_instructor": "waltham, christopher"
+		},
+		{
+			"sections_uuid": "7327",
+			"sections_instructor": "watts, susan"
+		},
+		{
+			"sections_uuid": "51393",
+			"sections_instructor": "watts, susan"
+		},
+		{
+			"sections_uuid": "89542",
+			"sections_instructor": "watts, susan"
+		},
+		{
+			"sections_uuid": "89544",
+			"sections_instructor": "watts, susan"
+		},
+		{
+			"sections_uuid": "97294",
+			"sections_instructor": "watts, susan"
+		},
+		{
+			"sections_uuid": "86581",
+			"sections_instructor": "mansfield, shawn"
+		},
+		{
+			"sections_uuid": "6853",
+			"sections_instructor": "egerton, george w;gossen, david"
+		},
+		{
+			"sections_uuid": "12059",
+			"sections_instructor": "walsh marr, jennifer"
+		},
+		{
+			"sections_uuid": "12062",
+			"sections_instructor": "walsh marr, jennifer"
+		},
+		{
+			"sections_uuid": "12063",
+			"sections_instructor": "walsh marr, jennifer"
+		},
+		{
+			"sections_uuid": "12067",
+			"sections_instructor": "shaw, amber"
+		},
+		{
+			"sections_uuid": "12069",
+			"sections_instructor": "shaw, amber"
+		},
+		{
+			"sections_uuid": "51796",
+			"sections_instructor": "hellwig, cornelie emma soelie"
+		},
+		{
+			"sections_uuid": "92650",
+			"sections_instructor": "walsh marr, jennifer"
+		},
+		{
+			"sections_uuid": "92651",
+			"sections_instructor": "shaw, amber"
+		},
+		{
+			"sections_uuid": "92653",
+			"sections_instructor": "walsh marr, jennifer"
+		},
+		{
+			"sections_uuid": "92655",
+			"sections_instructor": "shaw, amber"
+		},
+		{
+			"sections_uuid": "12074",
+			"sections_instructor": "shaw, amber"
+		},
+		{
+			"sections_uuid": "12076",
+			"sections_instructor": "shaw, amber"
+		},
+		{
+			"sections_uuid": "47041",
+			"sections_instructor": "ao, weiwei"
+		},
+		{
+			"sections_uuid": "96991",
+			"sections_instructor": "wei, xiaoxi tereza"
+		},
+		{
+			"sections_uuid": "3795",
+			"sections_instructor": "wong, tom"
+		},
+		{
+			"sections_uuid": "5168",
+			"sections_instructor": "lo, quin wai joseph"
+		},
+		{
+			"sections_uuid": "5169",
+			"sections_instructor": "lo, quin wai joseph"
+		},
+		{
+			"sections_uuid": "27255",
+			"sections_instructor": "leung, fok-shuen;wong, tom"
+		},
+		{
+			"sections_uuid": "34001",
+			"sections_instructor": "desaulniers, shawn;leung, fok-shuen;sargent, pamela"
+		},
+		{
+			"sections_uuid": "3809",
+			"sections_instructor": "rechnitzer, andrew"
+		},
+		{
+			"sections_uuid": "31941",
+			"sections_instructor": "walls, patrick"
+		},
+		{
+			"sections_uuid": "47065",
+			"sections_instructor": "rechnitzer, andrew"
+		},
+		{
+			"sections_uuid": "47072",
+			"sections_instructor": "williams, thomas"
+		},
+		{
+			"sections_uuid": "90034",
+			"sections_instructor": "bradshaw, zachary"
+		},
+		{
+			"sections_uuid": "47093",
+			"sections_instructor": "shih, chih wen"
+		},
+		{
+			"sections_uuid": "5215",
+			"sections_instructor": "rechnitzer, andrew"
+		},
+		{
+			"sections_uuid": "13785",
+			"sections_instructor": "rechnitzer, andrew"
+		},
+		{
+			"sections_uuid": "72992",
+			"sections_instructor": "rechnitzer, andrew"
+		},
+		{
+			"sections_uuid": "34090",
+			"sections_instructor": "loewen, philip"
+		},
+		{
+			"sections_uuid": "94429",
+			"sections_instructor": "loewen, philip"
+		},
+		{
+			"sections_uuid": "34093",
+			"sections_instructor": "loewen, philip"
+		},
+		{
+			"sections_uuid": "4615",
+			"sections_instructor": "jefferies, wilfred arthur"
+		},
+		{
+			"sections_uuid": "24212",
+			"sections_instructor": "sinclair, chadwick"
+		},
+		{
+			"sections_uuid": "24878",
+			"sections_instructor": "jackson, howard"
+		},
+		{
+			"sections_uuid": "24989",
+			"sections_instructor": "jackson, howard"
+		},
+		{
+			"sections_uuid": "24990",
+			"sections_instructor": "jackson, howard"
+		},
+		{
+			"sections_uuid": "43212",
+			"sections_instructor": "jackson, howard"
+		},
+		{
+			"sections_uuid": "98691",
+			"sections_instructor": "mccutcheon, william"
+		},
+		{
+			"sections_uuid": "54688",
+			"sections_instructor": "hamson, dwayne"
+		},
+		{
+			"sections_uuid": "78105",
+			"sections_instructor": "hamson, dwayne"
+		}
+	]
+}

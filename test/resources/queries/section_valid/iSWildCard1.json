@@ -1,0 +1,95 @@
+{
+	"title": "ISWildCard1",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_uuid": "*6434*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_uuid",
+				"sections_instructor"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_uuid": "66434",
+			"sections_instructor": "jenstad, lorienne"
+		},
+		{
+			"sections_uuid": "16434",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "26434",
+			"sections_instructor": "rajwani, aziz"
+		},
+		{
+			"sections_uuid": "56434",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "96434",
+			"sections_instructor": "hoegg, jo andrea"
+		},
+		{
+			"sections_uuid": "36434",
+			"sections_instructor": "fallon, gerald"
+		},
+		{
+			"sections_uuid": "76434",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "64340",
+			"sections_instructor": "echard, sian"
+		},
+		{
+			"sections_uuid": "64341",
+			"sections_instructor": ""
+		},
+		{
+			"sections_uuid": "64342",
+			"sections_instructor": "mackenzie, scott"
+		},
+		{
+			"sections_uuid": "64343",
+			"sections_instructor": "potter, tiffany"
+		},
+		{
+			"sections_uuid": "64344",
+			"sections_instructor": "morgan, george macgregor"
+		},
+		{
+			"sections_uuid": "64345",
+			"sections_instructor": "robinson, leni"
+		},
+		{
+			"sections_uuid": "64346",
+			"sections_instructor": "fox, lorcan francis"
+		},
+		{
+			"sections_uuid": "64347",
+			"sections_instructor": "hudson, nicholas james"
+		},
+		{
+			"sections_uuid": "64348",
+			"sections_instructor": "briggs, marlene;ferreira, laila"
+		},
+		{
+			"sections_uuid": "64349",
+			"sections_instructor": "danielson, dennis richard"
+		},
+		{
+			"sections_uuid": "86434",
+			"sections_instructor": "suttle, curtis"
+		},
+		{
+			"sections_uuid": "6434",
+			"sections_instructor": "potts, diane"
+		}
+	]
+}

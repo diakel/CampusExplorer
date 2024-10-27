@@ -1,0 +1,129 @@
+tsconfig setup
+https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+https://www.geeksforgeeks.org/explain-about-noimplicitany-in-typescript/
+https://piazza.com/class/lqww5ovazrd39j/post/239
+
+InsightFacade setup
+https://stackoverflow.com/questions/33305954/typescript-export-vs-default-export
+
+packages.json setup
+https://docs.npmjs.com/cli/v9/using-npm/scripts
+
+tsconfig.json framework from c0 docs
+
+help on js rules for semicolons
+https://www.shecodes.io/athena/17589-when-to-use-a-semicolon-in-javascript#:~:text=In%20JavaScript%2C%20semicolons%20are%20used,them%20to%20avoid%20potential%20errors.
+
+
+export stuff
+https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export
+https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export
+
+array help
+https://www.w3schools.com/js/js_arrays.asp
+
+let vs var vs const
+https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
+
+JS primatives
+https://developer.mozilla.org/en-US/docs/Glossary/Primitive
+
+promiseHelp
+https://piazza.com/class/lqww5ovazrd39j/post/269
+
+jsonObject method help
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
+
+fs-extra docs
+https://github.com/jprichardson/node-fs-extra/blob/master/docs/readJson.md
+
+json object interface examples
+https://dev.to/codeprototype/safely-parsing-json-to-a-typescript-interface-3lkj
+single vs double quotes
+https://stackoverflow.com/questions/25453864/what-is-the-standard-for-use-of-quotes-in-typescript
+::== meaning
+https://stackoverflow.com/questions/9196066/what-does-a-double-colon-followed-by-an-equals-sign-mean-in-programming-do
+
+constants/enums in typescript
+https://stackoverflow.com/questions/56263200/how-to-define-string-literal-union-type-from-constants-in-typescript
+https://www.typescriptlang.org/docs/handbook/enums.html#enums
+https://stackoverflow.com/questions/26471239/typescript-constants-in-an-interface
+
+casting in typescript
+https://www.w3schools.com/typescript/typescript_casting.php
+
+nested if research
+https://stackoverflow.com/questions/45124896/alternative-to-nested-if-for-conditional-logic
+
+TS foreach
+https://www.javatpoint.com/typescript-foreach
+https://www.tutorialsteacher.com/typescript/for-loop
+
+Promise methods
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve
+
+=== vs object.is
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#same-value_equality_using_object.is
+
+typeof
+https://dev.to/danywalls/how-to-check-types-in-typescript-o5n
+https://www.typescriptlang.org/docs/handbook/2/typeof-types.html
+
+string testing
+https://stackoverflow.com/questions/6629728/check-if-a-string-has-a-certain-piece-of-text
+
+online typescript script tester
+https://playcode.io/typescript
+
+readonly
+https://www.scaler.com/topics/typescript/typescript-readonly/
+
+JS array in
+https://stackoverflow.com/questions/1098040/checking-if-a-key-exists-in-a-javascript-object
+
+JS array search
+https://www.geeksforgeeks.org/how-to-check-if-an-array-includes-an-object-in-javascript/
+
+Typescript dynamic class property access
+https://stackoverflow.com/questions/57086672/element-implicitly-has-an-any-type-because-expression-of-type-string-cant-b
+https://stackoverflow.com/questions/62438346/how-to-dynamically-access-object-property-in-typescript
+
+for of vs for in
+https://stackoverflow.com/questions/29285897/difference-between-for-in-and-for-of-statements
+
+array length
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length
+
+string substring includes
+https://www.spguides.com/typescript-check-if-a-string-contains-a-substring/
+
+mapping new js object key names onto existing object
+https://stackoverflow.com/questions/43839400/change-object-key-using-object-keys-es6
+
+mixed type arrays
+https://stackoverflow.com/questions/29382389/defining-array-with-multiple-types-in-typescript
+
+check types
+https://dev.to/danywalls/how-to-check-types-in-typescript-o5n
+
+toFixed
+https://stackoverflow.com/questions/17902815/division-of-float-numbers-in-javascript
+https://stackoverflow.com/questions/3337849/difference-between-tofixed-and-toprecision
+
+delete object key
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete
+
+string to number
+https://stackoverflow.com/questions/14667713/how-to-convert-a-string-to-number-in-typescript
+
+express js error codes
+https://stackoverflow.com/questions/10563644/how-to-specify-http-error-code-using-express-js
+
+insightFacade+server instances
+https://piazza.com/class/lqww5ovazrd39j/post/732
+
+chai expectation docs
+https://www.chaijs.com/api/bdd/#method_a
+
+error catching help
+https://stackoverflow.com/questions/54649465/how-to-do-try-catch-and-finally-statements-in-typescript
